@@ -30,12 +30,6 @@
     font-weight: bold; 
     color: #3D37F1;
 }
-.burger-icon {
-    display: none;
-    font-size: 40px;
-    margin-right: 20px;
-
-}
 .sec1 {
      display: flex;
      justify-content: space-around;
