@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.body {
+    overflow-x: hidden;
+}
 .logo {
     font-size: 32px;
     color: #3D37F1;
-    margin-left: 132px;
-     
+    margin-left: 132px; 
 }
-
 .ui-color {
     font-weight: lighter;  
     color: #4B647E;
@@ -82,7 +83,8 @@
     justify-content: center;
     margin-top: 150px;
     display: flex;
-    width: 712px;
+    max-width: 712px;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -119,34 +121,44 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 30px
 }
 .block:nth-child(1) {
     background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+    
+    
 }
 .block:nth-child(2) {
     background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+    
 }
 .block:nth-child(3) {
     background-image: linear-gradient(-225deg, #65379B 0%, #886AEA 53%, #6457C6 100%);
+    
 }
 .block:nth-child(4) {
     background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
-    margin-top: 30px;
+    
+    
 }
 .block:nth-child(5) {
     background-image: linear-gradient(-225deg, #AC32E4 0%, #7918F2 48%, #4801FF 100%);
-    margin-top: 30px;
+   
+    
 }
 .block:nth-child(6) {
     background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
-    margin-top: 30px;
+    
+   
 }
     
 .eqvsi-block {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin: 0 auto;
+    margin:  auto;
+    max-width: 1169px;
+    width: 100%;
 }
 .block-text {
     width:770px;
@@ -187,3 +199,19 @@
 .block-surati {
     margin-top: 88px;
 }
+/* @media (max-width:1200px) {
+    .sec1 {
+        max-width: 100%;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .right {
+        margin-left: 25%;
+    }
+    .eqvsi-block {
+        width: 90%;
+        justify-content: space-between;
+    }
+    
+    
+} */
