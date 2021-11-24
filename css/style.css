@@ -22,6 +22,9 @@
     max-width: 1708px;
     width: 100%;
 }
+.nav-word {
+    color: #3D37F1;
+}
 .nav-ul{
     display: flex;
     margin-right: 150px;  
@@ -29,7 +32,7 @@
 .navli {
     margin-left: 50px;
     font-weight: bold; 
-    color: #3D37F1;
+    
 }
 .sec1 {
      display: flex;
